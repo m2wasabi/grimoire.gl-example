@@ -3,7 +3,7 @@
     <scene>
         <camera class="camera" near="0.01" far="40.0" aspect="1.5" fovy="45d" position="0,0,10">
             <camera.components>
-                <MouseCameraControl/>
+                <MouseCameraControl rotateSpeed="0.01"/>
             </camera.components>
         </camera>
         <mesh geometry="cylinder" position="0,0,0" scale="3,3,3" color="#6a5acd" targetBuffer="wireframe"/>
